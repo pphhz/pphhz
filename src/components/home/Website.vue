@@ -42,6 +42,7 @@
     </ul>
     <h3>图片</h3>
     <ul>
+      <li><a href="https://zh.snipaste.com/">snipaste截图工具</a></li>
       <li><a href="http://squoosh.app">Squoosh!(在线图片压缩工具)</a></li>
       <li><a href="https://trianglify.io">多边形背景生成器</a></li>
       <li><a href="https://visualhunt.com">visualhunt(无版权图片资源)</a></li>
