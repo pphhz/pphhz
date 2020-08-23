@@ -71,7 +71,7 @@ export default {
   font-size: $font_medium;
   .home-left{
       width: 250px;
-      height: 500px;
+      height: 100%;
       // margin-left: -100%;
       box-sizing: border-box;
       float: left;
@@ -90,7 +90,7 @@ export default {
   }
   .home-middle{
         width: 100%;
-        float: left; 
+        float: left;
         color:$font-color3;
         font-size: $font_large;
         
@@ -102,7 +102,7 @@ export default {
   }
   .home-right{
       width: 250px;
-      height: 500px;
+      height: 100%;
       // margin-left: -250px;
       float: left;
       padding: 15px;

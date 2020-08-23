@@ -6,6 +6,20 @@
         <span v-show="isShow">▲</span>
     </div>
           <pre v-show="isShow"  style="word-wrap: break-word; white-space: pre-wrap;">
+
+              ****组件中的命名注意点
+1.1注册组件的时候使用了"驼峰命名", 那么在使用时需要转换成"短横线分隔命名"
+例如: 注册时: myFather  ->  使用时: my-father
+
+1.2在传递参数的时候如果想使用"驼峰名称", 那么就必须写"短横线分隔命名"
+例如: 传递时: parent-name="name" ->  接收时: props: ["parentName"]
+
+1.3在传递方法的时候不能使用"驼峰命名", 只能用"短横线分隔命名"
+@parent-say="say"  -> this.$emit("parent-say");
+
+
+
+
 1.父传子，子组件想要访问父组件的数据, 必须通过父组件传递
 1.1在父组件中通过v-bind传递数据
    传递格式 v-bind:自定义接收名称 = "要传递数据"

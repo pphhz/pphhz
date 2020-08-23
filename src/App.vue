@@ -24,7 +24,7 @@ export default {
 @import "./assets/css/variable";
 
 html{
-   background: skyblue;
+   background: $background-color3;
    
 }
 
