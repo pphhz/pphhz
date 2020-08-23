@@ -1,5 +1,5 @@
 <template>
-  <div class="slot">
+  <div class="slot-use">
     <div class="header"  @click="toggle">
         <h3>插槽v-slot</h3>
         <span v-show="!isShow">▼</span>
@@ -96,7 +96,7 @@
 
 <script>
 export default {
-  name: 'Slot',
+  name: 'SlotUse',
   data(){
     return{
       isShow:false,
@@ -114,7 +114,7 @@ export default {
 <style scoped lang="scss" scoped>
 @import '../../assets/css/variable';
 
-.slot{
+.slot-use{
   .header{
     display: flex;
     justify-content: space-between;

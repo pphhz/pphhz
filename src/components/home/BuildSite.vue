@@ -11,14 +11,20 @@
           <SSH></SSH>
         </li>
         <li>
-            <BuildVueProject></BuildVueProject>
+            <build-vue-project></build-vue-project>
         </li>
         <li>
-            <Slot></Slot>
+            <slot-use></slot-use>
         </li>
         <li>
-             <FatherSonPassData></FatherSonPassData>
+             <father-son-pass-data></father-son-pass-data>
          </li>
+        <li>
+            <knowledge-node></knowledge-node>
+        </li>
+        <li>
+            <send-request></send-request>
+        </li>
     </ul>
   </div>
 </template>
@@ -27,10 +33,12 @@
 <script>
     import Github from '../Content/Github'
     import Git from '../Content/Git'
-    import Slot from '../Content/Slot'
+    import SlotUse from '../Content/SlotUse'
     import SSH from '../Content/SSH'
     import BuildVueProject from '../Content/BuildVueProject'
     import FatherSonPassData from '../Content/FatherSonPassData'
+    import SendRequest from '../Content/SendRequest'
+    import KnowledgeNode from '../Content/KnowledgeNode'
 
 export default {
   name: 'BuildSite',
@@ -39,8 +47,10 @@ export default {
       SSH,
       BuildVueProject,
       Git,
-      Slot,
+      SlotUse,
       FatherSonPassData,
+      SendRequest,
+      KnowledgeNode,
   },
   data(){
     return{
