@@ -6,7 +6,7 @@
         <span v-show="isShow">▲</span>
     </div>
           <pre v-show="isShow"  style="word-wrap: break-word; white-space: pre-wrap;">
-    1.<a href="http://momentjs.cn/">momentjs.cn</a>
+    <a href="http://momentjs.cn/">momentjs.cn</a>
     日期格式化
     moment().format('MMMM Do YYYY, h:mm:ss a'); // 八月 20日 2020, 4:40:14 下午
     moment().format('dddd');                    // 星期四
@@ -43,6 +43,12 @@
     moment().format('lll');  // 2020年8月20日 16:40
     moment().format('LLLL'); // 2020年8月20日星期四下午4点40分
     moment().format('llll'); // 2020年8月20日星期四 16:40
+
+               《template
+                       slot="createTime"
+                       slot-scope="text, record"
+               >{ moment(new Date(text)).format('YYYY-MM-DD HH:mm:ss') }}《/template>
+
           </pre>
   </div>
 </template>

@@ -25,6 +25,12 @@
         <li>
             <send-request></send-request>
         </li>
+        <li>
+             <date-format></date-format>
+        </li>
+        <li>
+            <arrow-function></arrow-function>
+        </li>
     </ul>
   </div>
 </template>
@@ -39,6 +45,8 @@
     import FatherSonPassData from '../Content/FatherSonPassData'
     import SendRequest from '../Content/SendRequest'
     import KnowledgeNode from '../Content/KnowledgeNode'
+    import DateFormat from '../Content/DateFormat'
+    import ArrowFunction from '../Content/ArrowFunction'
 
 export default {
   name: 'BuildSite',
@@ -51,6 +59,8 @@ export default {
       FatherSonPassData,
       SendRequest,
       KnowledgeNode,
+      DateFormat,
+      ArrowFunction,
   },
   data(){
     return{
