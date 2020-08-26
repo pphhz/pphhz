@@ -131,10 +131,10 @@
     this.$router.push({ name: 'home', params: { userId: wise }})
 
 
-    5. // 查询条件参数
-      queryParam: {},
+    5.
       // 加载数据方法 必须为 Promise 对象
       loadData: parameter => {
+        // 查询条件参数
 	    let queryParam = {}
 	    const { form: { validateFields }, selectedNode } = this
 	    if (validateFields) {
@@ -159,6 +159,29 @@
             }
           })
       },
+
+
+
+      没表单，就simple-table的情况
+      loadData: parameter => {
+        let queryParam = {
+          instId: this.instId ? this.instId : '-',
+          sortMapJson: '{}'
+        }
+        return getApprovalHistoryList(Object.assign({}, parameter, queryParam)).then(res => {
+          return {
+            data: res.data
+          }
+        })
+      }
+
+        export function getApprovalHistoryList (parameter) {
+          return axios({
+            url: api.history + parameter.instId + '/hisNodeInst',
+            method: 'get',
+            params: parameter
+          })
+        }
 
           </pre>
   </div>
