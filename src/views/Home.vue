@@ -10,7 +10,9 @@
           <router-link tag="li" to="/home/htmlCss" class="item">
             <span>Html、Css📓</span>
           </router-link>
-          <li>JavaScript📓</li>
+            <router-link tag="li" to="/home/js" class="item">
+                <span>JavaScript📓</span>
+            </router-link>
           <router-link tag="li" to="/home/web" class="item">
             <span>前端学习网站💻</span>
           </router-link>
@@ -31,7 +33,7 @@
           </router-link>
         </ul>
       </div>
-      
+
       <div class="home-right">
         <h3>平和猴子的兴趣</h3>
             <p>前端</p>
@@ -51,7 +53,7 @@ export default {
 
 },
 
-  
+
 }
 </script>
 
@@ -93,11 +95,11 @@ export default {
         float: left;
         color:$font-color3;
         font-size: $font_large;
-        
+
       .warpper{
         background: rgb(148, 200, 221);
         margin: 40px 250px 0 250px;
-      
+
       }
   }
   .home-right{

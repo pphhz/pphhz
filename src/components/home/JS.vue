@@ -1,14 +1,8 @@
 <template>
-  <div class="htmlcss">
+  <div class="js">
     <ul>
         <li>
-          <CssCursor></CssCursor>
-        </li>
-        <li>
-          <ScrollBar></ScrollBar>
-        </li>
-        <li>
-          <Ellipsis></Ellipsis>
+          <arr-str-operate></arr-str-operate>
         </li>
     </ul>
   </div>
@@ -16,15 +10,11 @@
 
 
 <script>
-import CssCursor from '../Content/CssCursor'
-import ScrollBar from '../Content/ScrollBar'
-import Ellipsis from '../Content/Ellipsis'
+import ArrStrOperate from '../Content/ArrStrOperate'
 export default {
-  name: 'HtmlCss',
+  name: 'JS',
   components:{
-    CssCursor,
-    ScrollBar,
-    Ellipsis,
+      ArrStrOperate
   },
   data(){
     return{
@@ -41,7 +31,7 @@ export default {
 <style scoped lang="scss" scoped>
 @import '../../assets/css/variable';
 
-.htmlcss{
+.js{
   width: 100%;
   min-height: 500px;
   background-color: $background_color3;

@@ -6,6 +6,9 @@
         <span v-show="isShow">▲</span>
     </div>
           <pre v-show="isShow"  style="word-wrap: break-word; white-space: pre-wrap;">
+ 注意：addFile要用postman试接口，文档不行。domain、tenantId都传，body选file，key为file传文件
+
+
    1.不发请求的删除：(等后面提交或保存）
     handleDelete(item, record) {
         let that = this
@@ -61,9 +64,8 @@
            //post和get都是get
             let data = _.get(res, 'data.records')
           // let xxx= { ...data }.xxx//还包了一层的要 { ...data }
-            })
+            }
             _.set(this.table, 'loadData', data)
-          }
         }).finally(()=>{
           this.pageSaveLoading = false
         })

@@ -23,6 +23,10 @@ const HtmlCss=(resolve)=>{
   import('../components/home/HtmlCss').then((module)=>
     resolve(module)
 )}
+const JS=(resolve)=>{
+    import('../components/home/JS').then((module)=>
+        resolve(module)
+)}
 const Web=(resolve)=>{
   import('../components/home/Web').then((module)=>
     resolve(module)
@@ -63,9 +67,12 @@ const routes = [
   {path:'/Home',
      component:Home,
      children:[{
-      path:'htmlCss',
-      component:HtmlCss,
-    },{
+         path:'htmlCss',
+         component:HtmlCss,
+     },{
+         path:'js',
+         component:JS,
+     },{
       path:'web',
       component:Web,
     },{

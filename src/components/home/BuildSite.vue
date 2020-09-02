@@ -31,6 +31,9 @@
         <li>
             <arrow-function></arrow-function>
         </li>
+        <li>
+            <life-circle></life-circle>
+        </li>
     </ul>
   </div>
 </template>
@@ -47,6 +50,7 @@
     import KnowledgeNode from '../Content/KnowledgeNode'
     import DateFormat from '../Content/DateFormat'
     import ArrowFunction from '../Content/ArrowFunction'
+    import LifeCircle from '../Content/LifeCircle'
 
 export default {
   name: 'BuildSite',
@@ -61,6 +65,7 @@ export default {
       KnowledgeNode,
       DateFormat,
       ArrowFunction,
+      LifeCircle,
   },
   data(){
     return{
