@@ -7,13 +7,21 @@
     </div>
           <pre v-show="isShow"  style="word-wrap: break-word; white-space: pre-wrap;">
         1.splice返回切下来的数组，会改变原始数组。
+              还可以给原始数组添加数据
             var arr=['aa','bb','cc']
             console.log(arr.splice(2,1))
               //从2开始切一个
-              //[cc]
+              //['cc']
+
             console.log(arr.splice(2,0))
               //从2开始切0个
               //[]
+
+            var arr=['aa','bb','cc']
+            arr.splice(2,0,"William")
+             console.log(arr)
+              //['aa','bb','William','cc',]
+              //2之前加上去
 
 
         2.slice返回切下来的数据，不会改变原始数组
