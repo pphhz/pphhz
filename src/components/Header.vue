@@ -4,26 +4,24 @@
       <ul>
         <router-link tag="li" to="/home" class="item">
             <span>主页🏠</span>
-        </router-link> 
+        </router-link>
         <router-link tag="li" to="/life" class="item">
             <span>生活🐵</span>
-        </router-link> 
+        </router-link>
         <router-link tag="li" to="/support" class="item">
             <span>支持我🙈</span>
-        </router-link> 
+        </router-link>
       </ul>
-      
+
     </div>
     <div class="header-right">
       <ul>
         <li v-show="show">3045078817</li>
         <li @click="toggle" class="item">平和猴子🐧</li>
-        <li>登录</li>
-        <li>注册</li>
       </ul>
     </div>
-    
-    
+
+
   </div>
 </template>
 
@@ -44,7 +42,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss" scoped> 
+<style scoped lang="scss">
 @import '../assets/css/variable';
 .item{
   //改鼠标为小手
@@ -73,6 +71,8 @@ export default {
         color:$font-color;
       }
   }
- 
+  .header-right{
+    margin-right: 20px;
+  }
 }
 </style>

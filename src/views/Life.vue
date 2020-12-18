@@ -2,6 +2,16 @@
   <div class="life">
     <h3>我的画</h3>
       <ul>
+          <li><img src="../assets/images/waterColor/cat (2).jpg" alt="猫" title="猫"></li>
+          <li><img src="../assets/images/waterColor/cat (3).jpg" alt="猫" title="猫"></li>
+          <li><img src="../assets/images/waterColor/dog (2).jpg" alt="朋友的狗" title="朋友的狗"></li>
+          <li><img src="../assets/images/waterColor/2b.jpg" alt="2b" title="2b"></li>
+          <li><img src="../assets/images/waterColor/fight.jpg" alt="嘴角起泡想打架" title="嘴角起泡想打架"></li>
+          <li><img src="../assets/images/waterColor/theSixSense.jpg" alt="第六感" title="第六感"></li>
+          <li><img src="../assets/images/waterColor/theSixSense1.jpg" alt="第六感" title="第六感"></li>
+          <li><img src="../assets/images/waterColor/utena.jpg" alt="utena" title="utena"></li>
+          <li><img src="../assets/images/waterColor/youtube.jpg" alt="YouTube纪录片" title="YouTube纪录片"></li>
+          <li><img src="../assets/images/waterColor/Q.jpg" alt="Q？" title="Q？"></li>
           <li><img src="../assets/images/waterColor/1LDK.jpg" alt="1LDK" title="1LDK"></li>
           <li><img src="../assets/images/waterColor/okiku.jpg" alt="okiku" title="okiku"></li>
           <li><img src="../assets/images/waterColor/praiseMe.jpg" alt="夸我" title="夸我"></li>
@@ -25,7 +35,7 @@ export default {
   components:{
   },
 
-  
+
 }
 </script>
 

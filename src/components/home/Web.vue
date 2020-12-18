@@ -36,7 +36,7 @@
      <li><a href="https://www.html.cn/doc/less/features/">less语言特性(中文)</a></li>
       <li><a href="http://koala-app.com/index-zh.html">考拉客户端</a></li>
       <li><a href="https://tool.oschina.net/less">开源中国</a></li>
-      <li><a href="doc/less中的内置函数.html">Less中的内置函数</a></li>
+      <!--<li><a href="doc/less中的内置函数.html">Less中的内置函数</a></li>-->
     </ul>
    <h2>5.Sass(css预处理)</h2>
    <ul><li><a href="https://www.sass.hk">Sass中文网</a></li></ul>
@@ -57,7 +57,7 @@
   <ul>
     <li><a href="https://cn.vuejs.org/">Vue.js</a></li>
     <li><a href="https://cli.vuejs.org/zh/">Vue CLI</a></li>
-  </ul>  
+  </ul>
   <h2>10.Work</h2>
   <ul>
     <li><a href="https://www.antdv.com/docs/vue/introduce-cn/">Ant Design of Vue</a></li>
@@ -68,8 +68,12 @@
     <li><a href="https://www.lodashjs.com/">lodash（js工具库）</a></li>
     <li><a href="https://www.axure.com.cn/axure/course/">axure非官方文档</a></li>
   </ul>
-          
-          
+    <h2>11.Bootstrap</h2>
+    <ul>
+      <li><a href="https://www.bootcss.com/">Bootstrap（友情链接很多）</a></li>
+    </ul>
+
+
   </div>
 </template>
 
@@ -78,17 +82,17 @@ export default {
   name: 'Web',
   data(){
     return{
-      
+
     }
   },
   methods:{
-    
+
   },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss" scoped> 
+<style scoped lang="scss">
 @import '../../assets/css/variable';
 .web{
   width: 100%;
