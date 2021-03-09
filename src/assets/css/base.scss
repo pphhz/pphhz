@@ -18,3 +18,33 @@ body{
 img{
   vertical-align: bottom;
 }
+input{
+  border: $border-color;
+  border-radius: 5px;
+  outline: none;
+}
+button{
+  border:1px solid $border-color;
+  border-radius: 5px;
+  outline: none;
+}
+
+form{
+  text-align: center;
+  padding: 20px 30px 30px 20px;
+  input{
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+    padding: 2px;
+  }
+  button{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    background: $background-color3;
+  }
+  button:hover{
+    background: $background-color1;
+  }
+}
