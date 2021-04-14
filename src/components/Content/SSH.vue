@@ -7,7 +7,7 @@
     </div>
          <pre v-show="isShow"  style="word-wrap: break-word; white-space: pre-wrap;">
         <a href="https://gitee.com/help/articles/4181#article-header0">SSH公钥生成教程</a>
-             1.ssh-keygen -t rsa -C "xxxxx@xxxxx.com" （改！）(在随便一个本地文件夹打开git终端输)
+            1.ssh-keygen -t rsa -C "xxxxx@xxxxx.com" （改！）(在随便一个本地文件夹打开git终端输)
             秘钥可以改名字，但是github只认识id_rsa/c/Users/平和猴子/.ssh/id_rsa，本地c盘的用户平和猴子里有了一个.ssh文件夹
 
             2.cat ~/.ssh/id_rsa.pub
@@ -44,7 +44,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss" scoped> 
+<style scoped lang="scss" scoped>
 @import '../../assets/css/variable';
  a{
        color:$font-color2;
@@ -61,8 +61,8 @@ export default {
     background-color: $background-color2;
     cursor: pointer;
 }
-  
- 
+
+
   pre{
     margin: 10px;
   }

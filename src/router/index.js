@@ -1,9 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Singer from '../views/Singer'
-// import Recommend from '../views/Recommend'
-// import Rank from '../views/Rank'
-// import Search from '../views/Search'
 
 Vue.use(VueRouter)
 //按需加载,导入

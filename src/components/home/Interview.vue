@@ -3,7 +3,7 @@
         <h3>前端面试题（点击下载）</h3>
         <ul>
             <li><a href="./webInterview1.md" download="webInterview1.md">WEB大前端面试题.md</a></li>
-            <li><a href="./webInterview.docx" download="webInterview.docx">前端面试宝典.docx</a></li>
+            <!--<li><a href="./webInterview.docx" download="webInterview.docx">前端面试宝典.docx</a></li>-->
         </ul>
   </div>
 </template>
@@ -12,13 +12,13 @@
 export default {
   name: 'Interview',
   methods:{
-   
+
   },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss" scoped> 
+<style scoped lang="scss" scoped>
 @import '../../assets/css/variable';
 
 .interview{
