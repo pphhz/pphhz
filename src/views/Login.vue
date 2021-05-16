@@ -7,7 +7,7 @@
           <label for="phone">账号：</label><input name="phone" id="phone" type="text">
           <label for="pwd">密码：</label><input name="pwd" id="pwd" type="password">
           <button :loading="loading" @click="submitForm" style="float: right">提交</button>
-          <div style="margin-top: 20px;display:flex;justify-content:space-between;width: 100%;">
+          <div style="margin-top: 50px;display:flex;justify-content:space-between;width: 100%;">
             <span @click="showLogUp">注册</span>
             <span @click="showForgetPwd">忘记密码</span>
           </div>
@@ -66,7 +66,7 @@ export default {
   background-color: rgba(23, 21, 21, 0.7);
   .window{
     width: 300px;
-    height: 230px;
+    height: 200px;
     position: fixed;
     top: 50%;
     left: 50%;
