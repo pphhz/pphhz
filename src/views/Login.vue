@@ -8,8 +8,8 @@
           <label for="pwd">密码：</label><input name="pwd" id="pwd" type="password">
           <button :loading="loading" @click="submitForm" style="float: right">提交</button>
           <div style="margin-top: 20px;display:flex;justify-content:space-between;width: 100%;">
-            <a href="" @click="showLogUp">注册</a>
-            <a href="" @click="showForgetPwd">忘记密码</a>
+            <span @click="showLogUp">注册</span>
+            <span @click="showForgetPwd">忘记密码</span>
           </div>
         </form>
 
@@ -66,14 +66,14 @@ export default {
   background-color: rgba(23, 21, 21, 0.7);
   .window{
     width: 300px;
-    height: 300px;
+    height: 230px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: $background-color2;
     border-radius: 5px;
-    padding:10px 10px 20px 10px;
+    padding:10px 10px 10px 10px;
   }
   h3{
     font:bold $font_large arial;
