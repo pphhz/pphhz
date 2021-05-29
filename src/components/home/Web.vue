@@ -67,6 +67,10 @@
     <li><a href="https://developers.weixin.qq.com/miniprogram/dev/api/">微信开放文档</a></li>
     <li><a href="https://www.lodashjs.com/">lodash（js工具库）</a></li>
     <li><a href="https://www.axure.com.cn/axure/course/">axure非官方文档</a></li>
+    <li><a href="https://pc.sgu.com.cn/sgu/dsxxjy/login">国网大学</a></li>
+    <li><a href="https://sjxt.vip/#/study/course/index">思极大学</a></li>
+    <li><a href="https://www.it666.com/">知播渔</a></li>
+    <li><a href="https://study.163.com">网易云课堂</a></li>
   </ul>
     <h2>11.Bootstrap</h2>
     <ul>

@@ -19,11 +19,13 @@
       <h3>1. 谷歌浏览器插件</h3>
       <p>安装步骤：下载.crx的插件文件到本地->修改文件扩展名为zip->解压zip文件到文件夹->打开谷歌浏览器的右上角->更多工具->扩展程序，开发者模式->把解压的那个文件夹拖进去</p>
       <ul>
+        <li><a href="https://chrome.google.com/webstore/category/extensions">谷歌插件商店</a></li>
         <li><a href="http://chromecj.com/">chrome插件网</a></li>
         <li><a href="https://www.extfans.com/">extfans插件网</a></li>
         <li><a href="http://chromecj.com/utilities/2019-04/1971.html">装插件"CRX-HEADER-INVALID"解决方法</a></li>
         <li><a href="https://www.baidufe.com/fehelper/">前端工具feHelper</a></li>
         <li><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=zh-CN">Vue.js devtools</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/setupvpn-lifetime-free-vp/oofgbpoabipfcfjapgnbbjjaenockbdp/related">setup vpn（翻墙）</a></li>
         <li><a href="https://chromecj.com/web-development/2019-04/2189.html">AlloyDesigner前端开发插件</a></li>
         <li><a href="https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef/related?hl=zh-CN">番茄工作法助理</a></li>
         <li><a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=zh-CN">捕捉网页截图FireShot</a></li>

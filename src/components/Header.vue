@@ -18,20 +18,20 @@
       <ul>
         <li v-show="show">3045078817</li>
         <li @click="toggle" class="item">平和猴子🐧</li>
-        <li><button href="" @click="changeIsShowLogin">登录/注册</button></li>
+<!--        <li><button href="" @click="changeIsShowLogin">登录/注册</button></li>-->
       </ul>
     </div>
-    <Login v-model="isShowLogin" @balabala="queryFunction()"/>
+<!--    <Login v-model="isShowLogin" @balabala="queryFunction()"/>-->
 
   </div>
 </template>
 
 <script>
-import Login from '@/views/Login'
+// import Login from '@/views/Login'
 export default {
   name: 'Header',
   components: {
-    Login
+    // Login
   },
   data(){
     return{

@@ -6,7 +6,9 @@
     </ul>
     <h3>娱乐</h3>
     <ul>
-        <li><a href="http://www.yyets8.com/">人人影视</a></li>
+<!--        <li><a href="http://www.yyets8.com/">人人影视</a></li>-->
+<!--        <li><a href="http://www.yyets8.com/">人人影视</a></li>-->
+        <li><a href="http://m.rr.tv/">人人视频</a></li>
         <li><a href="https://m.58wangpan.com">58网盘分享</a></li>
       <li><a href="http://www.novipnoad.com">NO视频</a></li>
       <li><a href="http://ifkdy.com/">疯狂影视</a></li>
@@ -25,10 +27,10 @@
       <li><a href="https://52sharing.cn">吾爱分享</a></li>
       <li><a href="https://www.cn-ki.net/"> IData知识检索(期刊论文)</a></li>
     </ul>
-    <h3>服务</h3>
+    <h3>谷歌服务</h3>
     <ul>
       <li><a href="http://www.vixual.net/blog/archives/164?variant=zh-cn">Google 常用服务及网址</a></li>
-      <li><a href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">chrome网上应用店
+      <li><a href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">chrome网上应用店(插件)
 </a></li>
       <li><a href="https://www.google.com.tw/">谷歌搜索</a></li>
       <li><a href="https://www.google.com/imghp">谷歌搜图</a></li>
@@ -54,6 +56,7 @@
       <li><a href="https://www.remove.bg">removebg(去除图片背景)</a></li>
       <li><a href="https://bigjpg.com">bigjpg(智能放大图片)</a></li>
       <li><a href="http://gif.55.la/">gif在线制作</a></li>
+      <li><a href="https://www.dbbqb.com/">逗比（表情包搜索）</a></li>
     </ul>
 
     <h3>文档</h3>
