@@ -3,13 +3,15 @@
     <h3>网址导航</h3>
     <ul>
         <li><a href="http://ailongmiao.com/">龙喵网</a></li>
+        <li><a href="http://www.lsdhss.com/">猎手导航</a></li>
+        <li><a href="https://wht.im/">万花筒导航</a></li>
     </ul>
     <h3>娱乐</h3>
     <ul>
 <!--        <li><a href="http://www.yyets8.com/">人人影视</a></li>-->
 <!--        <li><a href="http://www.yyets8.com/">人人影视</a></li>-->
-        <li><a href="http://m.rr.tv/">人人视频</a></li>
-        <li><a href="https://m.58wangpan.com">58网盘分享</a></li>
+      <li><a href="http://m.rr.tv/">人人视频</a></li>
+      <li><a href="https://m.58wangpan.com">58网盘分享</a></li>
       <li><a href="http://www.novipnoad.com">NO视频</a></li>
       <li><a href="http://ifkdy.com/">疯狂影视</a></li>
       <li><a href="http://www.ikanmv.com/">爱看电影</a></li>

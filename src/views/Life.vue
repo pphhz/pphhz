@@ -2,6 +2,11 @@
   <div class="life">
     <h3>我的画</h3>
       <ul>
+          <li><img src="../assets/images/waterColor/threePersons.jpg" alt="threePersons" title="threePersons"></li>
+          <li><img src="../assets/images/waterColor/aLook.jpg" alt="aLook" title="aLook"></li>
+          <li><img src="../assets/images/waterColor/sing.jpg" alt="sing" title="油管节目"></li>
+          <li><img src="../assets/images/waterColor/live.jpg" alt="live" title="live"></li>
+          <li><img src="../assets/images/waterColor/diy.jpg" alt="diy" title="缝缝补补又三年"></li>
           <li><img src="../assets/images/waterColor/cat (2).jpg" alt="猫" title="猫"></li>
           <li><img src="../assets/images/waterColor/cat (3).jpg" alt="猫" title="猫"></li>
           <li><img src="../assets/images/waterColor/dog (2).jpg" alt="朋友的狗" title="朋友的狗"></li>

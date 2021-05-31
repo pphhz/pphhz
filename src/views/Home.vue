@@ -41,6 +41,11 @@
             <p>动漫</p>
             <p>音乐（Reol）</p>
             <p>画画</p>
+          <h3 style="margin-top: 40px;">我画的微信表情包：</h3>
+          <img src="../assets/images/qrCode.jpg" alt="" style="width: 100px;margin-top: 20px;">
+          <h3 style="margin-top: 40px;">友情链接：（我参与制作）</h3>
+              <p style="margin-top: 10px;"><a href="https://www.reol.fans/">Reol粉丝网站</a></p>
+              <p><a href="https://reol.work/">Reol2019生贺网站</a></p>
       </div>
   </div>
 </template>
@@ -59,6 +64,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/css/variable";
+a{
+    color:$font-color2;
+}
 .item{
   //改鼠标为小手
   cursor:pointer;

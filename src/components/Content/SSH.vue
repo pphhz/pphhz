@@ -19,10 +19,11 @@
              别人的私密库要给我权限：
              别人的github-->库-->Deploy keys-->粘贴保存我的SSH key（要是id_rsa）
 
-
+    
         <a href="https://blog.csdn.net/wwmusic/article/details/51027458?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control">一台电脑如何管理多个SSH KEY</a>
             4.ssh -T git@gitee.com（改成github.com）查看git认证是否配置成功
                 yes
+        <a href="https://www.cnblogs.com/lixiaoxu/p/12532805.html">在一台电脑上，Git 生成多个key值。在GitHub配置多仓库的Deploy keys</a>
         </pre>
   </div>
 </template>
