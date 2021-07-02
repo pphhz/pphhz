@@ -11,6 +11,10 @@ const Life=(resolve)=>{
   import('../views/Life').then((module)=>
     resolve(module)
 )}
+const Guitar=(resolve)=>{
+  import('../views/Guitar').then((module)=>
+    resolve(module)
+)}
 const Support=(resolve)=>{
   import('../views/Support').then((module)=>
     resolve(module)
@@ -91,6 +95,7 @@ const routes = [
   },
   {path:'/Support',component:Support},
   {path:'/Life',component:Life},
+  {path:'/Guitar',component:Guitar},
 ]
 
 const router = new VueRouter({

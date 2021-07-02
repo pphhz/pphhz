@@ -1,12 +1,13 @@
 <template>
   <div class="life">
-    <h3>我的画</h3>
+<!--    <h3>我的画</h3>-->
       <ul>
-          <li><img src="../assets/images/waterColor/threePersons.jpg" alt="threePersons" title="threePersons"></li>
-          <li><img src="../assets/images/waterColor/aLook.jpg" alt="aLook" title="aLook"></li>
-          <li><img src="../assets/images/waterColor/sing.jpg" alt="sing" title="油管节目"></li>
+          <li><img src="../assets/images/otosata.jpg" alt="音沙汰" title="音沙汰"></li>
+          <li><img src="../assets/images/waterColor/threePersons.jpg" alt="three persons" title="three persons"></li>
+          <li><img src="../assets/images/waterColor/aLook.jpg" alt="a look" title="a look"></li>
+          <li><img src="../assets/images/waterColor/sing.jpg" alt="节目" title="节目"></li>
           <li><img src="../assets/images/waterColor/live.jpg" alt="live" title="live"></li>
-          <li><img src="../assets/images/waterColor/diy.jpg" alt="diy" title="缝缝补补又三年"></li>
+          <li><img src="../assets/images/waterColor/diy.jpg" alt="缝缝补补又三年" title="缝缝补补又三年"></li>
           <li><img src="../assets/images/waterColor/cat (2).jpg" alt="猫" title="猫"></li>
           <li><img src="../assets/images/waterColor/cat (3).jpg" alt="猫" title="猫"></li>
           <li><img src="../assets/images/waterColor/dog (2).jpg" alt="朋友的狗" title="朋友的狗"></li>
@@ -47,16 +48,16 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/css/variable";
 .life{
-  margin-top: 40px;
+  margin-top: 50px;
 
-  h3{
-    line-height: 50px;
-    background-color: $background_color1;
-    color:$font-color1;
-    font-size: $font_medium;
-    padding-left: 30px;
+  //h3{
+    //line-height: 50px;
+    //background-color: $background_color1;
+   // color:$font-color1;
+   // font-size: $font_medium;
+   // padding-left: 30px;
 
-  }
+//  }
   ul {
     width: 80%;
     margin: 0 auto;
@@ -70,7 +71,7 @@ export default {
       border: 1px solid #000;
       border-radius: 10px;
         img {
-          height: 400px;
+          height: 300px;
           &:hover {
             transform: scale(1.2);
             transition: all 2s;

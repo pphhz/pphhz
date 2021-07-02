@@ -41,6 +41,7 @@
             <p>动漫</p>
             <p>音乐（Reol）</p>
             <p>画画</p>
+            <p>吉他</p>
           <h3 style="margin-top: 40px;">我画的微信表情包：</h3>
           <img src="../assets/images/qrCode.jpg" alt="" style="width: 100px;margin-top: 20px;">
           <h3 style="margin-top: 40px;">友情链接：（我参与制作）</h3>

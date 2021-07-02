@@ -6,10 +6,13 @@
             <span>主页🏠</span>
         </router-link>
         <router-link tag="li" to="/life" class="item">
-            <span>生活🐵</span>
+            <span>我的画🎨</span>
+        </router-link>
+        <router-link tag="li" to="/Guitar" class="item">
+            <span>吉他🎸</span>
         </router-link>
         <router-link tag="li" to="/support" class="item">
-            <span>支持我🙈</span>
+            <span>支持我💰</span>
         </router-link>
       </ul>
 
