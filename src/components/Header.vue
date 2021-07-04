@@ -14,6 +14,9 @@
         <router-link tag="li" to="/support" class="item">
             <span>支持我💰</span>
         </router-link>
+        <router-link tag="li" to="/about" class="item">
+            <span>关于❔</span>
+        </router-link>
       </ul>
 
     </div>

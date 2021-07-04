@@ -36,9 +36,13 @@
         <li><a href="http://chromecj.com/web-development/2018-07/1468.html">谷歌插件油猴(脚本管理器)</a>
         <li><a href="http://www.tampermonkey.net">油猴官网</a></li>
       </ul>
-      <h3>2.浏览器脚本网站</h3>
+      <h3>2.小书签</h3>
+      <ul>
+        <li><a href="https://mp.weixin.qq.com/s/a6JYYv5-Y2H_NXRLBBTqww">使用小书签执行js</a></li>
+      </ul>
+      <h3>3.浏览器脚本网站</h3>
       <ul><li><a href="https://greasyfork.org/zh-CN">Greasy Fork</a></li></ul>
-      <h3>3. js滚动视差插件</h3>
+      <h3>4. js滚动视差插件</h3>
       <ul>
         <li><a href="http://www.greensock.com/">GSAP官网地址</a></li>
         <li><a href="https://www.tweenmax.com.cn/">GSAP中文网</a></li>
