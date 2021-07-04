@@ -11,7 +11,7 @@
     “主页-插件、库”里包含的“浏览器插件”和“小书签”，我觉得对开发者以外的朋友也很有帮助，像破解视频vip、复制百度文库的文字等，插件、书签的安装和使用也不复杂。
     “主页”里其余的内容几乎都是前端知识了，也可以看看。
 
-    如果对前端感兴趣，推荐江哥的视频，链接：<a href="https://study.163.com/instructor/1026367774.htm?_trace_c_p_k2_=b99aa9dd0c7548b69eab5c2a5d8374e1">网易云课堂</a> <a href="https://www.it666.com/">知播渔教育（江哥 网站）</a>
+    如果对前端感兴趣，推荐江哥的视频，链接：<a href="https://study.163.com/instructor/1026367774.htm?_trace_c_p_k2_=b99aa9dd0c7548b69eab5c2a5d8374e1">网易云课堂</a> <a href="https://www.it666.com/">知播渔教育（江哥的网站）</a>
         </pre>
         </div>
     </div>
