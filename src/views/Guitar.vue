@@ -1,13 +1,9 @@
 <template>
   <div class="guitar">
-<!--      <span>&nbsp;敬请期待。。。</span>-->
       <div class="container">
-
           <p class="title">星条旗进行曲</p>
-<!--          <div :class="{playing:isPlaying}">-->
               <img class="autoRotate" ref="disc" src="../assets/images/black.png"></img>
-<!--          </div>-->
-          <audio @play="play" @pause="pause" src="../assets/theStarsAndStripesForever.aac" controls :play="isP"  loop></audio>
+          <audio @play="play" @pause="pause" src="../assets/theStarsAndStripesForever.aac" controls  loop></audio>
       </div>
   </div>
 </template>
