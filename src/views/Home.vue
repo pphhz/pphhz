@@ -68,6 +68,9 @@ export default {
 @import "../assets/css/variable";
 a{
     color:$font-color2;
+    &:hover{
+        color:$font-active-color-theme1;
+    }
 }
 .item{
   //改鼠标为小手

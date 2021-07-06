@@ -1,35 +1,39 @@
 //字体定义规范
-$font_small:12Px;
-$font_medium_s:13Px;
-$font_medium:15Px;
-$font_large:17Px;
-$font_huge:27Px;
+$font_small: 12Px;
+$font_medium_s: 13Px;
+$font_medium: 15Px;
+$font_large: 17Px;
+$font_huge: 27Px;
 
 // 背景颜色规范(主要)
-$background-color: rgb(63, 134, 128);//背景主题颜色默认(夜间模式)
-$background-color1: #83bb97;//背景主题颜色1(网易红)
-$background-color2: #9ac59c;//背景主题颜色2(QQ绿)
-$background-color3: hsl(128, 28%, 57%);//背景主题颜色2(QQ绿)
-$background-color4: rgb(16, 82, 76);//背景主题颜色2(QQ绿)
-$background-color5: rgb(16, 82, 76,0.8);//背景主题颜色2(QQ绿)
+$background-color: rgb(63, 134, 128); //背景主题颜色默认(夜间模式)
+$background-color1: #83bb97; //背景主题颜色1(网易红)
+$background-color2: #9ac59c; //背景主题颜色2(QQ绿)
+$background-color3: hsl(128, 28%, 57%); //背景主题颜色2(QQ绿)
+$background-color4: rgb(16, 82, 76); //背景主题颜色2(QQ绿)
+$background-color5: rgb(16, 82, 76, 0.8); //背景主题颜色2(QQ绿)
+$background-color6: rgb(7, 53, 49); //背景主题颜色2(QQ绿)
+$background-color7: #a7b557; //背景主题颜色2(QQ绿)
 
 // 背景颜色规范(次要)
-$background-color-sub-theme: #444;//背景主题颜色默认(夜间模式)
-$background-color-sub-theme1: #f5f5f5;//背景主题颜色1(网易红)
-$background-color-sub-theme2: #f5f5f5;//背景主题颜色2(QQ绿)
+$background-color-sub-theme: #444; //背景主题颜色默认(夜间模式)
+$background-color-sub-theme1: #f5f5f5; //背景主题颜色1(网易红)
+$background-color-sub-theme2: #f5f5f5; //背景主题颜色2(QQ绿)
 
 // 字体颜色规范(默认)
-$font-color: #ddd;//字体主题颜色默认(夜间模式)
-$font-color1: #2c4b42;//字体主题颜色1(网易)
-$font-color2: #883939;//字体主题颜色2(QQ)
-$font-color3: #3a2222;//字体主题颜色2(QQ)
+$font-color: #ddd; //字体主题颜色默认(夜间模式)
+$font-color1: #2c4b42; //字体主题颜色1(网易)
+$font-color2: #883939; //字体主题颜色2(QQ)
+$font-color3: #3a2222; //字体主题颜色2(QQ)
+$font-color4: #3a2222; //字体主题颜色2(QQ)
+$font-color5: #b4c597; //字体主题颜色2(QQ)
 
 // 字体颜色规范(激活)
-$font-active-color-theme: #ffcc33;//字体主题颜色默认(夜间模式)
-$font-active-color-theme1 : #d43c33;//字体主题颜色1(网易红)
-$font-active-color-theme2 : rgba(34,213,156,1);//字体主题颜色2(QQ绿)
+$font-active-color-theme: #ffcc33; //字体主题颜色默认(夜间模式)
+$font-active-color-theme1: #d43c33; //字体主题颜色1(网易红)
+$font-active-color-theme2: rgba(34, 213, 156, 1); //字体主题颜色2(QQ绿)
 
 // 边框颜色
-$border-color: #ffcc33;//边框主题颜色默认(夜间模式)
-$border-color1 : #808654;//边框主题颜色1(网易)
-$border-color2 : rgba(34,213,156,1);//边框主题颜色2(QQ)
+$border-color: #ffcc33; //边框主题颜色默认(夜间模式)
+$border-color1: #808654; //边框主题颜色1(网易)
+$border-color2: rgba(34, 213, 156, 1); //边框主题颜色2(QQ)

@@ -33,7 +33,7 @@
     a{
         color:$font-active-color-theme;
         &:hover{
-            color:$font-active-color-theme1;
+            color:$font-active-color-theme2;
         }
     }
     .about {
