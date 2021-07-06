@@ -9,12 +9,7 @@
                 <span v-if="param=='study'">学习</span>
             </div>
 
-            <div style="text-align: center" v-if="param=='train'" >
-                <img   class="autoRotate" ref="disc" src="../../assets/images/black.png">
-                <p  style="padding-top: 1%">星条旗进行曲</p>
-                <audio @play="play" @pause="pause" src="../../assets/theStarsAndStripesForever.aac" controls loop></audio>
-            </div>
-
+            <!--           1. 网站-->
             <div v-if="param=='website'">
             <pre>
         基础乐理：
@@ -23,8 +18,18 @@
         吉他：
         <a href="https://study.163.com/course/courseMain.htm?courseId=821008">从零到高手，吉他入门标准教程</a>
             </pre>
-
             </div>
+
+
+            <!--            2.练习-->
+            <div style="text-align: center" v-if="param=='train'">
+                <img class="autoRotate" ref="disc" src="../../assets/images/black.png">
+                <p style="padding-top: 1%">星条旗进行曲</p>
+                <audio @play="play" @pause="pause" src="../../assets/theStarsAndStripesForever.aac" controls
+                       loop></audio>
+            </div>
+
+
         </div>
     </div>
 </template>
@@ -40,10 +45,10 @@
                 isPlaying: false,
             }
         },
-        props:{
-          param:{
-              type:String
-          }
+        props: {
+            param: {
+                type: String
+            }
         },
         methods: {
             play: function () {
@@ -65,12 +70,14 @@
 <style lang="scss" scoped>
     @import "../../assets/css/variable";
 
-    a{
-        color:$font-active-color-theme;
-        &:hover{
-            color:$font-active-color-theme2;
+    a {
+        color: $font-active-color-theme;
+
+        &:hover {
+            color: $font-active-color-theme2;
         }
     }
+
     .train {
         margin-top: 40px;
 
@@ -84,10 +91,12 @@
             background-color: $background_color5;
             color: $font-color;
             border-radius: 30px;
-            pre{
+
+            pre {
                 font-size: $font_large;
                 padding: 5%;
             }
+
             .title {
                 text-align: center;
                 background-color: $background-color4;
