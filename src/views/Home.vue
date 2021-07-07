@@ -38,7 +38,7 @@
         components: {},
         data() {
             return {
-                activeIndex: 0,
+                activeIndex: null,
                 dict:
                     [
                         {
@@ -75,6 +75,9 @@
                         }
                     ]
             }
+        },
+        created() {
+            this.bgcChange(index)
         },
         methods: {
             bgcChange(index) {

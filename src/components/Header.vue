@@ -31,7 +31,7 @@
             return {
                 show: false,
                 isShowLogin: false,
-                activeIndex: 0,
+                activeIndex: null,
                 dict:
                     [
                         {
